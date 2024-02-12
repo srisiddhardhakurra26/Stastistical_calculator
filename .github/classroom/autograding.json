@@ -1,0 +1,164 @@
+{
+  "tests": [
+    {
+      "name": "About Page",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_about_page.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Index Page",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_index_page.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Bad password",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_login_bad_password.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Dashboard",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_login_dashboard.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Login Success",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_login_success.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Login User not Found",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_login_user_not_found.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Logout",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_logout.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Profile Controller",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_profile_controller.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Profile Model",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_profile_model.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Test Registration Duplicate Fail",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest tests/test_registration_duplicate_fail.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Test Registration Success",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest tests/test_registration_success.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_sample_authenticated_menu.py",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_sample_authenticated_menu.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_sample_login_redirect.py",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_sample_login_redirect.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_sample_model.py",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_sample_model.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_sample_route.py",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_sample_route.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "test_sample_unauthenticated_menu.py",
+      "setup": "sudo -H pip3 install -r requirements.txt && flask db upgrade",
+      "run": "pytest tests/test_sample_unauthenticated_menu.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
